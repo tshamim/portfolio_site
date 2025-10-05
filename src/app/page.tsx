@@ -1,4 +1,5 @@
 import ContactForm from "@/components/sections/contact-form";
+import Experience from "@/components/sections/experience";
 import Hero from "@/components/sections/hero";
 import Projects from "@/components/sections/projects";
 import Services from "@/components/sections/services";
@@ -9,6 +10,7 @@ export default function Page() {
     <>
       <Hero />
       <Services />
+      <Experience />
       <Projects />
       <Testimonials />
       <ContactForm />
