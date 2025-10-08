@@ -9,42 +9,42 @@ export type Experience = {
 
 export const experiences: Experience[] = [
   {
-    company: "Northwind Labs",
-    role: "Senior Product Engineer",
+    company: "Paperfly Ltd.",
+    role: "Head of Product & Technology",
     period: "2022 — Present",
     summary:
-      "Lead the delivery of full-stack product experiments for high-growth SaaS teams, shipping new revenue-driving flows in weeks instead of quarters.",
+      "Steering product strategy and engineering execution for a logistics-tech scale-up, aligning teams on customer journeys from idea to rollout.",
     achievements: [
-      "Partnered with product and GTM to launch a modular onboarding system that lifted trial-to-paid conversions by 18%",
-      "Created a performance-focused component library shared across 4 squads, cutting design-to-dev handoff time in half",
-      "Introduced observability workflows that reduced mean time to recovery from frontend incidents by 35%",
+      "Built a cross-functional roadmap process that cut experiment lead time from 10 weeks to 4",
+      "Shipped a unified parcel-tracking experience that reduced support tickets by 32% while boosting NPS",
+      "Scaled platform reliability with progressive rollouts and SLO-based alerting, driving 99.95% uptime",
     ],
-    tech: ["Next.js", "TypeScript", "Tailwind", "Postgres", "tRPC"],
+    tech: ["Next.js", "TypeScript", "Go", "PostgreSQL", "AWS"],
   },
   {
-    company: "Orbit Analytics",
-    role: "Frontend Chapter Lead",
-    period: "2019 — 2022",
+    company: "Devskamp LLC",
+    role: "Engineering Manager (Remote)",
+    period: "2015 — 2022",
     summary:
-      "Scaled a data visualization platform while mentoring a team of five engineers and aligning roadmaps with design, analytics, and marketing stakeholders.",
+      "Led distributed squads delivering SaaS products for travel and fintech clients, blending coaching with hands-on architecture work.",
     achievements: [
-      "Rebuilt the reporting suite with server components and suspense-friendly data fetching, improving load times by 40%",
-      "Stood up visual regression testing to prevent UI drift across 3,000+ customer dashboards",
-      "Implemented accessibility guidelines that brought the application to WCAG 2.1 AA compliance",
+      "Mentored eight engineers through promotions by setting growth plans and pairing weekly on delivery",
+      "Introduced trunk-based delivery with automated CI gates, shrinking release regressions by 45%",
+      "Replatformed the analytics pipeline onto event-driven services, unlocking near real-time reporting",
     ],
-    tech: ["React", "Storybook", "GraphQL", "Playwright"],
+    tech: ["Node.js", "React", "GraphQL", "Kubernetes", "GCP"],
   },
   {
-    company: "Freelance",
-    role: "Product Designer & Engineer",
-    period: "2015 — 2019",
+    company: "Oployeelabs",
+    role: "Software Engineer",
+    period: "2012 — 2015",
     summary:
-      "Designed and built marketing sites, internal dashboards, and MVPs for startups in healthcare, climate, and fintech.",
+      "Developed core workforce analytics modules, modernizing scheduling, payroll, and compliance workflows for enterprise HR teams.",
     achievements: [
-      "Delivered end-to-end brand and web presence for 20+ clients with an average NPS of 9/10",
-      "Optimized lighthouse scores above 95 by default through static generation and prudent asset budgets",
-      "Automated deployment and preview pipelines so non-technical teams could ship updates confidently",
+      "Delivered modular REST services that handled 1M+ weekly timesheets with automated anomaly detection",
+      "Collaborated with UX to redesign scheduling dashboards, improving manager task completion time by 28%",
+      "Maintained zero-downtime releases through feature toggles and rigorous integration testing",
     ],
-    tech: ["Next.js", "Figma", "Netlify", "Contentful"],
+    tech: ["C#", ".NET", "AngularJS", "SQL Server", "Redis"],
   },
 ];
