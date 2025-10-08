@@ -20,27 +20,36 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://shamim.services";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Shamim Ahammed – Product & Tech Leader | Full-Stack Developer",
+    default:
+      "Shamim Ahammed - Product & Tech Leader | Full-Stack Developer",
     template: "%s | Shamim Ahammed",
   },
   description:
-    "I help startups and SMBs build and scale web products— from MVP to market—combining 12+ years of full-stack development with product leadership.",
+    "I help startups and SMBs build and scale web products, from MVP to market, combining 12+ years of full-stack development with product leadership.",
   openGraph: {
     type: "website",
     url: siteUrl,
-    title: "Shamim Ahammed – Product & Tech Leader",
+    title: "Shamim Ahammed - Product & Tech Leader",
     description:
       "MVPs, SaaS, and product leadership. Results-driven, business-minded engineering.",
     images: ["/og.jpg"],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Shamim Ahammed – Product & Tech Leader",
+    title: "Shamim Ahammed - Product & Tech Leader",
     description:
       "MVPs, SaaS, and product leadership. Results-driven, business-minded engineering.",
     images: ["/og.jpg"],
   },
   alternates: { canonical: siteUrl },
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/profile.jpg", type: "image/jpeg", sizes: "512x512" },
+    ],
+    shortcut: "/favicon.svg",
+    apple: [{ url: "/profile.jpg", type: "image/jpeg", sizes: "180x180" }],
+  },
 };
 
 export default function RootLayout({
@@ -70,7 +79,8 @@ export default function RootLayout({
           <main className="flex-1">{children}</main>
           <footer className="border-t border-white/10">
             <div className="container py-8 text-sm text-neutral-400">
-              © {new Date().getFullYear()} Shamim Ahammed. All rights reserved.
+              &copy; {new Date().getFullYear()} Shamim Ahammed. All rights
+              reserved.
             </div>
           </footer>
         </div>
