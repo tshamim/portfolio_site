@@ -24,7 +24,7 @@ export async function POST(req: Request) {
       from: "Portfolio <noreply@resend.dev>",
       to,
       subject: `New inquiry from ${parsed.data.name}`,
-      reply_to: parsed.data.email,
+      replyTo: parsed.data.email,
       text: `Name: ${parsed.data.name}
 Email: ${parsed.data.email}
 Company: ${parsed.data.company ?? "-"}
