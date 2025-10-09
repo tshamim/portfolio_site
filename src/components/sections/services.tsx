@@ -5,10 +5,10 @@ export default function Services() {
     <section id="services" className="container py-20">
       <h2 className="text-2xl md:text-3xl font-semibold">Services</h2>
       <p className="mt-3 text-neutral-300/90">
-        Clear offers, fixed outcomes. I price by scope, not endless hours.
+        From product vision to growth, I plug in where you need the most leverage.
       </p>
 
-      <div className="mt-8 grid md:grid-cols-3 gap-6">
+      <div className="mt-8 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
         {services.map((s) => (
           <div key={s.title} className="card p-6 hover:bg-white/[.03] transition">
             <h3 className="text-lg font-semibold">{s.title}</h3>

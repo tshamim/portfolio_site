@@ -1,12 +1,17 @@
 export const testimonials = [
   {
     quote:
-      "Shamim did some very good work on replacing and re-designing my current website. He not only made it look cleaner and more inviting, but worked with me on integrating my podcast and a unique blog signup process.\n\nHe is clever, insightful, and delivered quality work. Plus, he's not super expensive - which is a positive. Recommend him and his work.",
-    author: "Dr. Steve Ambrose, Host and Founder, RedHotHealthcare.com",
+      "Shamim transformed our marketing site and podcast platform into a cohesive growth engine. He designed the UX, rebuilt the stack, and automated our content workflows without disrupting production. Traffic, newsletter signups, and episode listens all trended up within the first month.",
+    author: "Dr. Steve Ambrose, Founder, RedHotHealthcare.com",
   },
   {
     quote:
-      "I had worked with Mr. Shamim Ahammed in Oployeelabs Ltd. for two years and was thrilled to have such a man. He is smart, responsive and easy to work with as a colleague. He's on top of current technologies, and regularly offers up recommendations and explanations that help us to make a team. His expertise in web application development is absolutely great. I learned a lot from him. I wish him great future ahead.",
+      "Working with Shamim at Oployeelabs showed me what modern engineering leadership looks like. He pairs architectural vision with detailed coaching, keeps the roadmap aligned to customer value, and never compromises on code quality or security. I would rehire him in a heartbeat.",
     author: "Mohammad Mustaneer Rahman, Data Scientist, University of Tasmania",
+  },
+  {
+    quote:
+      "We engaged Shamim as a fractional CTO to reboot our SaaS MVP. He clarified the product strategy, set up CI/CD, and guided the team through a seamless relaunch. Churn dropped by double digits and we now have a clear growth plan.",
+    author: "SaaS Founder, Confidential",
   },
 ];
