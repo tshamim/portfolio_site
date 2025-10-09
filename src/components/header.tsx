@@ -9,8 +9,8 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-40 border-b border-white/10 bg-black/40 backdrop-blur supports-[backdrop-filter]:bg-black/35">
-      <div className="container py-3 md:py-5">
-        <div className="mx-auto max-w-5xl">
+      <div className="container">
+        <div className="mx-auto max-w-5xl py-3 md:py-5">
           <div className="nav-shell md:grid md:grid-cols-[auto_1fr_auto] md:items-center md:gap-6">
             {/* Brand: avatar + name + discipline */}
             <Link href="/" className="group flex items-center gap-3 min-w-0">

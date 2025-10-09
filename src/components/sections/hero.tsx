@@ -4,9 +4,10 @@ export default function Hero() {
   return (
     <section className="relative overflow-hidden border-b border-white/10">
       <div className="pointer-events-none absolute inset-0 spotlight" />
-      <div className="container py-14 sm:py-16 md:py-24">
-        {/* On small screens, show avatar above text; on md+, text first */}
-        <div className="grid items-center gap-10 md:gap-12 md:grid-cols-[1.2fr_.8fr]">
+      <div className="container">
+        <div className="mx-auto max-w-5xl py-14 sm:py-16 md:py-24">
+          {/* On small screens, show avatar above text; on md+, text first */}
+          <div className="grid items-center gap-10 md:gap-12 md:grid-cols-[1.2fr_.8fr]">
           {/* Avatar (first on mobile) */}
           <div className="justify-self-center order-1 md:order-2">
             <div className="glow-wrap">
@@ -53,6 +54,7 @@ export default function Hero() {
               <li className="col-span-2 sm:col-span-1"><span className="text-white font-semibold">99.95%</span> uptime leadership</li>
             </ul>
           </div>
+        </div>
         </div>
       </div>
     </section>
