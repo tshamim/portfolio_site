@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -14,7 +15,14 @@ export default function Header() {
             {/* Brand: avatar + name + discipline */}
             <Link href="/" className="group flex items-center gap-3 min-w-0">
               <span className="logo-wrap shrink-0" aria-hidden="true">
-                <img src="/profile.jpg" alt="Shamim Ahammed headshot" className="logo-img" />
+                <Image
+                  src="/profile.jpg"
+                  alt="Shamim Ahammed headshot"
+                  fill
+                  priority
+                  sizes="(max-width: 768px) 40px, 56px"
+                  className="logo-img"
+                />
               </span>
               <span className="min-w-0">
                 <span className="block font-semibold tracking-tight text-sm text-neutral-300/80 group-hover:text-neutral-100 transition md:text-xs md:uppercase md:tracking-[0.35em]">

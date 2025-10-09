@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Hero() {
   return (
     <section className="relative overflow-hidden border-b border-white/10">
@@ -8,11 +10,16 @@ export default function Hero() {
           {/* Avatar (first on mobile) */}
           <div className="justify-self-center order-1 md:order-2">
             <div className="glow-wrap">
-              <img
-                src="/profile.jpg"
-                alt="Shamim Ahammed headshot"
-                className="relative z-10 w-32 h-32 sm:w-40 sm:h-40 md:w-64 md:h-64 object-cover rounded-3xl"
-              />
+              <div className="relative z-10 w-32 h-32 sm:w-40 sm:h-40 md:w-64 md:h-64">
+                <Image
+                  src="/profile.jpg"
+                  alt="Shamim Ahammed headshot"
+                  fill
+                  priority
+                  sizes="(max-width: 768px) 128px, (max-width: 1024px) 160px, 256px"
+                  className="object-cover rounded-3xl"
+                />
+              </div>
             </div>
           </div>
 
